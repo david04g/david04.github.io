@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -39,6 +41,28 @@ section#projects .project {
     background: #e2e2e2;
     margin: 1rem 0;
     padding: 1rem;
+    border-radius: 5px;
+}
+
+section#projects .project h3 {
+    margin-top: 0;
+}
+
+section#projects .project img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+section#projects .project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+section#projects .project a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -49,4 +73,9 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+/* Pixel Font for Headers */
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
 }
