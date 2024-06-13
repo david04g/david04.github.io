@@ -70,8 +70,7 @@ footer {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
+    position: relative;  /* Adjust position to avoid overlap */
     width: 100%;
 }
 
